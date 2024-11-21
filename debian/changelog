@@ -1,5 +1,71 @@
-template-repository (1.0-1) unstable; urgency=medium
+kf6-ksvg (6.6.0-2) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
+  * Use dh_qmldeps to detect QML dependencies.
+  * Add qml6-module packages to -dev package for QML dependency detection.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Sandro Knauß <hefee@debian.org>  Mon, 18 Nov 2024 20:02:16 +0100
+
+kf6-ksvg (6.6.0-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (6.6.0).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Fri, 06 Sep 2024 23:12:34 +0200
+
+kf6-ksvg (6.5.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * CI: update/simplify configuration.
+  * Drop the appstream build dependency, used only for testing the static
+    AppStream metainfo file shipped.
+  * Pass "-a" to xvfb-run, so it should run in more cases.
+
+ -- Pino Toscano <pino@debian.org>  Fri, 23 Aug 2024 07:56:30 +0200
+
+kf6-ksvg (6.5.0-1) unstable; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (6.5.0).
+  * Update build-deps and deps with the info from cmake.
+  * Release to unstable.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Sat, 10 Aug 2024 23:22:08 +0200
+
+kf6-ksvg (6.4.0-1) experimental; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * New upstream release (6.4.0).
+  * Update build-deps and deps with the info from cmake.
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Fri, 19 Jul 2024 09:24:45 +0200
+
+kf6-ksvg (6.3.1-1) experimental; urgency=medium
+
+  [ Patrick Franz ]
+  * New upstream release (6.3.1).
+
+ -- Patrick Franz <deltaone@debian.org>  Thu, 20 Jun 2024 17:28:23 +0200
+
+kf6-ksvg (6.3.0-1) experimental; urgency=medium
+
+  [ Aurélien COUDERC ]
+  * Drop useless dependency on the ${shlibs:Depends} variable for the -dev
+    package.
+  * Fix Vcs-Git URLs.
+
+  [ Patrick Franz ]
+  * New upstream release (6.3.0).
+  * Bump Standards-Version to 4.7.0 (No changes needed).
+  * Update build-deps and deps with the info from cmake.
+  * Update list of installed files.
+
+ -- Patrick Franz <deltaone@debian.org>  Sun, 09 Jun 2024 14:58:32 +0200
+
+kf6-ksvg (6.0.0-1) experimental; urgency=medium
+
+  [ Simon Quigley ]
+  * Initial release (Closes: #1068518).
+
+ -- Aurélien COUDERC <coucouf@debian.org>  Mon, 06 May 2024 21:24:13 +0200

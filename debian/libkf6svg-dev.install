@@ -1,0 +1,3 @@
+usr/include/KF6/KSvg/
+usr/lib/*/cmake/KF6Svg
+usr/lib/*/libKF6Svg.so
